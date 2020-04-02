@@ -1,4 +1,3 @@
-import { Button } from 'antd'
 import * as React from 'react'
 
 export type Props = {
@@ -6,5 +5,5 @@ export type Props = {
 }
 
 export const BasicButton = ({ innerText }: Props) => {
-  return <Button>{innerText}</Button>
+  return <button type="button">{innerText}</button>
 }

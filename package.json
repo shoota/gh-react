@@ -1,15 +1,15 @@
 {
-  "name": "react-playground",
-  "description": "よりうまい肉を食うぞ",
+  "name": "gh-react",
+  "description": "React app with github graphql API and others",
   "license": "MIT",
   "author": "",
-  "homepage": "https://github.com/shoota/react-playground#readme",
+  "homepage": "https://github.com/shoota/gh-react#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shoota/react-playground.git"
+    "url": "git+https://github.com/shoota/gh-react.git"
   },
   "bugs": {
-    "url": "https://github.com/shoota/react-playground/issues"
+    "url": "https://github.com/shoota/gh-react/issues"
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -22,7 +22,6 @@
     "test": "tsc -p ./tsconfig.json"
   },
   "dependencies": {
-    "antd": "4.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-hot-loader": "4.12.20",
