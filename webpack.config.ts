@@ -57,17 +57,12 @@ const config: ConfigurationFactory = (_env, { mode }) => {
           },
         },
         {
-          test: /\.less$/,
+          test: /\.css$/,
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
             },
             'css-loader',
-            {
-              loader: 'less-loader',
-              // https://github.com/ant-design/ant-design/issues/7927
-              options: { javascriptEnabled: true },
-            },
           ],
         },
         {
