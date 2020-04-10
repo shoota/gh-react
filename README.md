@@ -1,19 +1,9 @@
-# react-playground
-よりうまい肉を食うぞ
+# gh-react
 
-## Purpose
+React apps with Github graphql API.
 
-もっとうまい肉を食べれるようになる。
+## Motivation
 
-## Scope
-
-- React
-- Typescript
-- less syntax
-- Style(CSS) design
-
-## What I need?
-
-- きれいとはなにかを考える
-- できてるものより、できないものを考える
-- 悩ましい部分に自分ルールを持つ
+- using apollo-client and codegen
+- using react-bootstrap UI framework
+- use GH-Actions for CI
