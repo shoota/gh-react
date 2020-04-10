@@ -1,0 +1,18 @@
+overwrite: true
+schema:
+  - https://api.github.com/graphql:
+      headers:
+        Authorization: "bearer ${GITHUB_GRAPHQL_API_TOKEN}"
+        User-Agent: graphql-client-sandbox
+documents: ./src/**/*.graphql
+generates:
+  ./src/graphql/gql-codegen.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      withComponent: false
+      withHOC: false
+      withHooks: true
+      withRefetchFn: true

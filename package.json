@@ -16,6 +16,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "build-storybook": "build-storybook",
+    "codegen": "graphql-codegen --config codegen.yml",
     "lint": "eslint 'src/**/*.ts{,x}' --cache",
     "start": "webpack-dev-server",
     "storybook": "start-storybook -p 6006",
