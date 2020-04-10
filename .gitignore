@@ -94,4 +94,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Codegen
+gql-codegen.ts
 

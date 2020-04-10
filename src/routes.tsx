@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { Card } from 'antd'
-import styled from 'styled-components'
+import styled from '@emotion/styled'
+import { Button } from 'react-bootstrap'
 
 const Wrapper = styled.div`
   margin: 40px;
@@ -10,9 +10,8 @@ const Wrapper = styled.div`
 const Example = () => {
   return (
     <Wrapper>
-      <Card title="hello react">
-        <h1>webpack Example</h1>
-      </Card>
+      <h1>webpack Example</h1>
+      <Button variant="success">Hello React Bootstrap</Button>
     </Wrapper>
   )
 }
