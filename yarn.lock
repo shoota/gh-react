@@ -3001,11 +3001,6 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react-bootstrap@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/react-bootstrap/-/react-bootstrap-1.0.0.tgz#e2807f2f07b3973dc0c4affe1bc6f816b1f297e5"
-  integrity sha512-Orz9caIqTFNGlm/39JX6ZOpjsllUqgWRNlk81Nq1QrpXeJp3Pbl5Tc6tx+5WCR6EKtblk/Xsja9qHW95mUw0xQ==
-
 "@types/react-color@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/react-color/-/react-color-3.0.1.tgz#5433e2f503ea0e0831cbc6fd0c20f8157d93add0"
