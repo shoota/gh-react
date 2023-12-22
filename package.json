@@ -34,7 +34,7 @@
     "graphql": "15.0.0",
     "graphql-tag": "2.10.3",
     "react": "16.13.1",
-    "react-bootstrap": "1.0.0",
+    "react-bootstrap": "1.6.8",
     "react-dom": "16.13.1",
     "react-hot-loader": "4.12.20",
     "react-router": "5.1.2",
